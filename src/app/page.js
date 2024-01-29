@@ -1,5 +1,6 @@
 import HomeSection from "./components/HomeSection/page"
 import AboutSection from "./components/AboutSection/page";
+import ServicesSection from "./components/ServicesSection/page";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className={styles.main}>
       <HomeSection />
       <AboutSection />
+      <ServicesSection />
       Hola <br />
       Hola <br />
       Hola <br />

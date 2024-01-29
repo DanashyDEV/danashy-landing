@@ -3,6 +3,8 @@
   --secondary-color: #000038;
   --ligth-transparent: #ffffffcc;
   --primary-color-transparent: hsla(174, 100%, 29%, 0.7);
+  --secondary-color-transparent: #00003899;
+  --ligth-background: #ffffff;
 }
 
 * {

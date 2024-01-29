@@ -36,6 +36,7 @@ export default function AboutSection() {
         alt="sección sobre nosotros"
         fill
         className={styles.image}
+        priority
       />
       <Image
         src="/about.svg"
@@ -43,6 +44,7 @@ export default function AboutSection() {
         width={290}
         height={290}
         className={styles.imagePhone}
+        priority
       />
       <p className={device4}>
         Queremos consolidarnos como una de las mejores empresas a nivel nacional
