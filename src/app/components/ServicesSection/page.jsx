@@ -2,11 +2,12 @@ import React from "react";
 import styles from "./ServicesSection.module.css";
 import Icon from "./Icon";
 import Card from "./Card";
-import { LIST_SERVICES, SPECIALTY } from "@/app/constants/page";
+import Client from "./Client";
+import { LIST_SERVICES, SPECIALTY, CLIENTS } from "@/app/constants/page";
 
 export default function ServicesSection() {
   return (
-    <section className={styles.services}>
+    <section id="services" className={styles.services}>
       <p className={`${styles.title} ${styles.left}`}>NUESTROS SERVICIOS</p>
       <div className={styles.icons}>
         {LIST_SERVICES.map((service) => (
@@ -33,6 +34,11 @@ export default function ServicesSection() {
         ))}
       </div>
       <p className={`${styles.title} ${styles.left}`}>NUESTROS CLIENTES</p>
+      <div className={styles.clients}>
+        {CLIENTS.map((data) => (
+          <Client src={data.src} alt={data.key} key={data.key}/>
+        ))}
+      </div>
     </section>
   );
 }

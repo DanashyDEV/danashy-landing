@@ -10,10 +10,9 @@ export default function HomeSection() {
           style={{
             minWidth: "100%",
             minHeight: "100%",
-            objectFit: "cover",
+            objectFit: "cover"
           }}
-          controls={false}
-          mute="true"
+          muted
           autoPlay
           loop
           playsInline

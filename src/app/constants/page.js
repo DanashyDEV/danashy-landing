@@ -12,6 +12,10 @@ import card1 from "@/app/assets/card1.svg"
 import card2 from "@/app/assets/card2.svg"
 import card3 from "@/app/assets/card3.svg"
 
+import client1 from "@/app/assets/client1.svg"
+import client2 from "@/app/assets/client2.svg"
+import client3 from "@/app/assets/client3.svg"
+
 export const NAV_LINKS = [
   {
     href: "/",
@@ -151,5 +155,20 @@ export const SPECIALTY = [
       { list: "Implementación de Internet de las Cosas"},
       { list: "Automatización de procesos"},
     ],  
+  },
+]
+
+export const CLIENTS = [
+  {
+    src: client1,
+    key: "antara polanco",
+  },
+  {
+    src: client2,
+    key: "plaza artz",
+  },
+  {
+    src: client3,
+    key: "esmica",
   },
 ]

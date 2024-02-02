@@ -1,7 +1,10 @@
-import React from 'react'
+import styles from "./Client.module.css"
+import Image from 'next/image'
 
-export default function Client() {
+export default function Client(props) {
   return (
-    <div>Client</div>
+    <article className={styles.client}>
+      <Image src={props.src} alt={props.alt} className={styles.image}/>
+    </article>
   )
 }
