@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./Whatsapp.module.css"
-import whats from "../../../../public/whatsapp.svg"
+import styles from "./Whatsapp.module.css";
+import whats from "../../../../public/whatsapp.svg";
 
 export default function WhatsApp() {
   return (
