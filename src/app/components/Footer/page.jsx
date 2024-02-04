@@ -60,7 +60,7 @@ export default function Footer() {
           &nbsp;&nbsp;contacto@danashy.mx
         </div>
       </div>
-      <div className={styles.legend}>© 2023 Danashy - Servicios Integrales</div>
+      <div className={styles.legend}>© 2024 Danashy - Servicios Integrales</div>
     </section>
   );
 }

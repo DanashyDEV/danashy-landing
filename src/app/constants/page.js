@@ -18,30 +18,30 @@ import client3 from "@/app/assets/client3.svg"
 
 export const NAV_LINKS = [
   {
-    href: "/",
+    href: "#home",
     key: "home",
     label: "INICIO",
   },
   {
-    href: "/",
+    href: "#about",
     key: "about-us",
     label: "NOSOTROS",
   },
   {
-    href: "/",
+    href: "#services",
     key: "services",
     label: "SERVICIOS",
   },
   {
-    href: "/",
+    href: "#contact",
     key: "contact",
     label: "CONTACTO",
   },
-  {
-    href: "/",
-    key: "store",
-    label: "TIENDA",
-  },
+  // {
+  //   href: "/",
+  //   key: "store",
+  //   label: "TIENDA",
+  // },
 ];
 
 export const SOCIAL_MEDIA = [
@@ -53,7 +53,7 @@ export const SOCIAL_MEDIA = [
     {
         href: "https://wa.me/5618374471/?text=Requiro%20más%20información%20de%20sus%20servicios...",
         key: "teléfono",
-        icon: "/phone.svg"
+        icon: "/whatsapp.svg"
     },
     {
         href: "https://www.facebook.com/danashyoficial/",

@@ -23,18 +23,20 @@ export default function Navbar() {
   }, [width]);
 
   function handleMenu() {
-    if (!clickHam) {
-      setHam1(`${styles.bar1} ${styles.dg1}`);
-      setHam2(`${styles.bar2} ${styles.dg2}`);
-      setHam3(`${styles.bar3} ${styles.dg3}`);
-      setMenu(styles.menu);
-    } else {
-      setHam1(styles.bar1);
-      setHam2(styles.bar2);
-      setHam3(styles.bar3);
-      setMenu(styles.close);
+    if (width < 1025) {
+      if (!clickHam) {
+        setHam1(`${styles.bar1} ${styles.dg1}`);
+        setHam2(`${styles.bar2} ${styles.dg2}`);
+        setHam3(`${styles.bar3} ${styles.dg3}`);
+        setMenu(styles.menu);
+      } else {
+        setHam1(styles.bar1);
+        setHam2(styles.bar2);
+        setHam3(styles.bar3);
+        setMenu(styles.close);
+      }
+      setClickHam(!clickHam);
     }
-    setClickHam(!clickHam);
   }
 
   return (
@@ -53,7 +55,7 @@ export default function Navbar() {
         <span className={ham2}></span>
         <span className={ham3}></span>
       </div>
-      <nav className={menu}>
+      <nav className={menu} onClick={() => handleMenu()}>
         <ul className={styles.navbar}>
           {NAV_LINKS.map((link) => (
             <Link href={link.href} key={link.key} className={styles.link}>

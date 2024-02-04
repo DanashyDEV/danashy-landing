@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={radioCanada.className}>
-        <Navbar />
+        <header><Navbar /></header>
         {children}
         <WhatsApp />
       </body>

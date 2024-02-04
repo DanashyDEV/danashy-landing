@@ -27,7 +27,7 @@ export default function HomeSection() {
           tu organización, desde edificios y plazas comerciales hasta unidades
           habitacionales.
         </p>
-        <Link href="/" className={styles.contact}>
+        <Link href="#contact" className={styles.contact}>
           CONTÁCTANOS
         </Link>
       </div>
