@@ -5,7 +5,7 @@ import ContactUs from "./components/ContactSection/page";
 import Footer from "./components/Footer/page";
 import styles from "./page.module.css";
 
-export default function Home() {
+function Home() {
   return (
     <main className={styles.main}>
       <HomeSection />
@@ -16,3 +16,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home
