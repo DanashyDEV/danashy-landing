@@ -10,30 +10,71 @@ export default function ContactUs() {
         alt="mantenimiento preventivo"
         className={styles.image}
       />
-      <div className={styles.form}>
+      <form
+        className={styles.form}
+        action="https://formsubmit.co/contacto@danashy.mx"
+        method="POST"
+      >
         <p>Contáctanos</p>
         <div className={styles.box}>
-          <input id="name" type="text" autoComplete="off" />
+          <input
+            id="name"
+            name="name"
+            type="text"
+            autoComplete="off"
+            maxLength={50}
+            required
+          />
           <label htmlFor="name">Nombre</label>
         </div>
         <div className={styles.box}>
-          <input id="company" type="text" autoComplete="off" />
+          <input
+            id="company"
+            name="company"
+            type="text"
+            autoComplete="off"
+            maxLength={50}
+            required
+          />
           <label htmlFor="company">Organización/Empresa</label>
         </div>
         <div className={styles.box}>
-          <input id="mail" type="email" autoComplete="off" />
-          <label htmlFor="mail">Correo electrónico</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autoComplete="off"
+            maxLength={50}
+            required
+          />
+          <label htmlFor="email">Correo electrónico</label>
         </div>
         <div className={styles.box}>
-          <input id="phone" type="number" autoComplete="off" />
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            autoComplete="off"
+            minLength={10}
+            maxLength={14}
+            required
+          />
           <label htmlFor="phone">Teléfono</label>
         </div>
         <div className={styles.boxMsg}>
-          <textarea name="msg" id="msg" autoComplete="off"></textarea>
-          <label htmlFor="msg">Mensaje</label>
+          <textarea
+            name="message"
+            id="msg"
+            autoComplete="off"
+            maxLength={500}
+          />
+          <label htmlFor="message">Mensaje</label>
         </div>
-        <div className={styles.btn}>Enviar</div>
-      </div>
+        <input type="hidden" name="_next" value="https://www.danashy.mx/"></input>
+        <button className={styles.btn} type="submit">
+          Enviar
+        </button>
+      </form>
       <article className={styles.label}>
         <p className={styles.title}>¿En qué te podemos servir?</p>
         <p className={styles.description}>
