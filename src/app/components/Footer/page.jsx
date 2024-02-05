@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS } from "../../constants/page";
+import { NAV_LINKS } from "../../constants";
 import styles from "./Footer.module.css";
 
 import atcs from "@/app/assets/ATCS.svg";

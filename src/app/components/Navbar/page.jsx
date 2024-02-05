@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { NAV_LINKS, SOCIAL_MEDIA } from "../../constants/page";
+import { NAV_LINKS, SOCIAL_MEDIA } from "../../constants";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
