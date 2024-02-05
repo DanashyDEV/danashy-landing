@@ -15,7 +15,7 @@ function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={radioCanada.className}>
-        <header><Navbar /></header>
+        <Navbar />
         {children}
         <WhatsApp />
       </body>

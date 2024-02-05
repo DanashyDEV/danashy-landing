@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Card.module.css";
 
-export default function Card(props) {
+function Card(props) {
   return (
     <article className={styles.card}>
       <Image
@@ -22,3 +22,5 @@ export default function Card(props) {
     </article>
   );
 }
+
+export default Card

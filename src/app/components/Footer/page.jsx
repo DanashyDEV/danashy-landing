@@ -6,7 +6,7 @@ import styles from "./Footer.module.css";
 import atcs from "@/app/assets/ATCS.svg";
 import logotype from "@/app/assets/logotype.svg";
 
-export default function Footer() {
+function Footer() {
   return (
     <section className={styles.footer}>
       <div className={styles.info}>
@@ -64,3 +64,5 @@ export default function Footer() {
     </section>
   );
 }
+
+export default Footer

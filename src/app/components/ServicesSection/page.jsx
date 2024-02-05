@@ -5,7 +5,7 @@ import Card from "./Card";
 import Client from "./Client";
 import { LIST_SERVICES, SPECIALTY, CLIENTS } from "@/app/constants/page";
 
-export default function ServicesSection() {
+function ServicesSection() {
   return (
     <section id="services" className={styles.services}>
       <p className={`${styles.title} ${styles.left}`}>NUESTROS SERVICIOS</p>
@@ -42,3 +42,5 @@ export default function ServicesSection() {
     </section>
   );
 }
+
+export default ServicesSection

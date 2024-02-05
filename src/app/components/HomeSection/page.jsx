@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./HomeSection.module.css";
 
-export default function HomeSection() {
+function HomeSection() {
   return (
     <section id="home" className={styles.home}>
       <div className={styles.video}>
@@ -34,3 +34,5 @@ export default function HomeSection() {
     </section>
   );
 }
+
+export default HomeSection

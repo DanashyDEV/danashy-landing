@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./AboutSection.module.css";
 import useScreenSize from "../../../app/hooks/useScreenSize";
 
-export default function AboutSection() {
+function AboutSection() {
   const [device1, setDevice1] = useState(styles.about);
   const [device3, setDevice3] = useState(styles.text1);
   const [device4, setDevice4] = useState(styles.text2);
@@ -56,3 +56,5 @@ export default function AboutSection() {
     </section>
   );
 }
+
+export default AboutSection

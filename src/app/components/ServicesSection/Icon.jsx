@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Icon.module.css";
 
-export default function Icon(props) {
+function Icon(props) {
   return (
     <article className={styles.icon}>
       <div className={styles.circle}>
@@ -13,3 +13,5 @@ export default function Icon(props) {
     </article>
   );
 }
+
+export default Icon

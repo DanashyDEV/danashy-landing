@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./ContactSection.module.css";
 import contactUs from "@/app/assets/contactus.svg";
 
-export default function ContactUs() {
+function ContactUs() {
   return (
     <section id="contact" className={styles.contactUs}>
       <Image
@@ -104,3 +104,5 @@ export default function ContactUs() {
     </section>
   );
 }
+
+export default  ContactUs

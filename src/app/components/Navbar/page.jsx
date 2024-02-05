@@ -6,7 +6,7 @@ import Link from "next/link";
 import styles from "./Navbar.module.css";
 import useScreenSize from "../../hooks/useScreenSize";
 
-export default function Navbar() {
+function Navbar() {
   const [clickHam, setClickHam] = useState(false);
   const [ham1, setHam1] = useState(styles.bar1);
   const [ham2, setHam2] = useState(styles.bar2);
@@ -79,3 +79,5 @@ export default function Navbar() {
     </>
   );
 }
+
+export default Navbar
