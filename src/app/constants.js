@@ -56,7 +56,7 @@ export const SOCIAL_MEDIA = [
         icon: "/whatsapp.svg"
     },
     {
-        href: "https://www.facebook.com/danashyoficial/",
+        href: "https://www.facebook.com/danashysoficial/",
         key: "facebook",
         icon: "/facebook.svg"
     }
