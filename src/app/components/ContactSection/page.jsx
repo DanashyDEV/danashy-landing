@@ -85,11 +85,11 @@ function ContactUs() {
         </p>
         <div className={styles.data}>
           <Image src="./phone.svg" width={28} height={28} alt="teléfono" />
-          &nbsp;&nbsp;56 1837 4471
+          &nbsp;&nbsp;55 9234 3497
         </div>
         <div className={styles.data}>
           <Image src="./whatsapp.svg" width={28} height={28} alt="whatsapp" />
-          &nbsp;&nbsp;55 9234 3497
+          &nbsp;&nbsp;56 1837 4471
         </div>
         <div className={styles.data}>
           <Image
