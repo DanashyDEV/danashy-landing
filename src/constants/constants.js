@@ -1,47 +1,47 @@
-import air from "@/app/assets/air.svg"
-import camera from "@/app/assets/camera.svg"
-import cyborg from "@/app/assets/cyborg.svg"
-import db from "@/app/assets/db.svg"
-import elevator from "@/app/assets/elevator.svg"
-import ensamble from "@/app/assets/ensamble.svg"
-import factory from "@/app/assets/factory.svg"
-import scalator from "@/app/assets/scalator.svg"
-import screem from "@/app/assets/screen.svg"
+import air from "@/assets/air.svg"
+import camera from "@/assets/camera.svg"
+import cyborg from "@/assets/cyborg.svg"
+import db from "@/assets/db.svg"
+import elevator from "@/assets/elevator.svg"
+import ensamble from "@/assets/ensamble.svg"
+import factory from "@/assets/factory.svg"
+import scalator from "@/assets/scalator.svg"
+import screem from "@/assets/screen.svg"
 
-import card1 from "@/app/assets/card1.svg"
-import card2 from "@/app/assets/card2.svg"
-import card3 from "@/app/assets/card3.svg"
+import card1 from "@/assets/card1.svg"
+import card2 from "@/assets/card2.svg"
+import card3 from "@/assets/card3.svg"
 
-import client1 from "@/app/assets/client1.svg"
-import client2 from "@/app/assets/client2.svg"
-import client3 from "@/app/assets/client3.svg"
+import client1 from "@/assets/client1.svg"
+import client2 from "@/assets/client2.svg"
+import client3 from "@/assets/client3.svg"
 
 export const NAV_LINKS = [
   {
-    href: "#home",
+    href: "/#home",
     key: "home",
     label: "INICIO",
   },
   {
-    href: "#about",
+    href: "/#about",
     key: "about-us",
     label: "NOSOTROS",
   },
   {
-    href: "#services",
+    href: "/#services",
     key: "services",
     label: "SERVICIOS",
   },
   {
-    href: "#contact",
+    href: "/#contact",
     key: "contact",
     label: "CONTACTO",
   },
-  // {
-  //   href: "/",
-  //   key: "store",
-  //   label: "TIENDA",
-  // },
+  {
+    href: "/store",
+    key: "store",
+    label: "TIENDA",
+  },
 ];
 
 export const SOCIAL_MEDIA = [

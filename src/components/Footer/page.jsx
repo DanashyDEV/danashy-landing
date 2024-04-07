@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS } from "../../constants";
+import { NAV_LINKS } from "@/constants/constants";
 import styles from "./Footer.module.css";
 
-import atcs from "@/app/assets/ATCS.svg";
-import logotype from "@/app/assets/logotype.svg";
+import atcs from "@/assets/ATCS.svg";
+import logotype from "@/assets/logotype.svg";
 
 function Footer() {
   return (
@@ -37,7 +37,7 @@ function Footer() {
             alt="teléfono"
             className={styles.image}
           />
-          &nbsp;&nbsp;56 1837 4471
+          &nbsp;&nbsp;55 9234 3497
         </div>
         <div className={styles.data}>
           <Image
@@ -47,7 +47,7 @@ function Footer() {
             alt="whatsapp"
             className={styles.image}
           />
-          &nbsp;&nbsp;55 9234 3497
+          &nbsp;&nbsp;56 1837 4471
         </div>
         <div className={styles.data}>
           <Image

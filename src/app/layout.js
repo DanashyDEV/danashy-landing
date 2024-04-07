@@ -1,8 +1,8 @@
 import { Radio_Canada } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "./components/Navbar/page";
-import WhatsApp from "./components/Whatsapp/page";
+import Navbar from "@/components/Navbar/page";
+import WhatsApp from "@/components/Whatsapp/page";
 
 const radioCanada = Radio_Canada({ subsets: ["latin"] });
 

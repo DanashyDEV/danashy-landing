@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./ContactSection.module.css";
-import contactUs from "@/app/assets/contactus.svg";
+import contactUs from "@/assets/contactus.svg";
 
 function ContactUs() {
   return (

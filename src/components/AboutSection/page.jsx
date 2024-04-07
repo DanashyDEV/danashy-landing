@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./AboutSection.module.css";
-import useScreenSize from "../../../app/hooks/useScreenSize";
+import useScreenSize from "@/hooks/useScreenSize";
 
 function AboutSection() {
   const [device1, setDevice1] = useState(styles.about);
