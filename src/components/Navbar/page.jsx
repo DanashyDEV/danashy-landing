@@ -1,10 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import { NAV_LINKS, SOCIAL_MEDIA } from "../../constants";
+import { NAV_LINKS, SOCIAL_MEDIA } from "@/constants/constants";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
-import useScreenSize from "../../hooks/useScreenSize";
+import useScreenSize from "@/hooks/useScreenSize";
 
 function Navbar() {
   const [clickHam, setClickHam] = useState(false);

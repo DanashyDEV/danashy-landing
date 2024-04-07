@@ -3,7 +3,7 @@ import styles from "./ServicesSection.module.css";
 import Icon from "./Icon";
 import Card from "./Card";
 import Client from "./Client";
-import { LIST_SERVICES, SPECIALTY, CLIENTS } from "@/app/constants";
+import { LIST_SERVICES, SPECIALTY, CLIENTS } from "@/constants/constants";
 
 function ServicesSection() {
   return (

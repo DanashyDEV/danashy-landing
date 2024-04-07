@@ -1,0 +1,7 @@
+export * from "./AboutSection/page"
+export * from "./ContactSection/page"
+export * from "./Footer/page"
+export * from "./HomeSection/page"
+export * from "./Navbar/page"
+export * from "./ServicesSection/page"
+export * from "./Whatsapp/page"
